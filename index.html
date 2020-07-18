@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dance School</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script>
+		$(document).on('click','ul li', function(){
+			$(this).addClass('active').siblings().removeClass('active')
+		})
+	</script>
+</head>
+<body>
+	<div class="container-fluid main">
+		<div class="row navigation">
+			<img src="image/logo.png" alt="">
+			<nav>
+				<ul>
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Styles</a>
+						<ul>
+							<li><a href="#">Hip Hop</a></li>
+							<li><a href="#">Tap</a></li>
+							<li><a href="#">Break</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="row header">
+			<div class="social col-1 col-sm-1">
+				<ul>
+					<li><img src="https://img.icons8.com/bubbles/50/000000/facebook-new.png"/></li>
+					<li><img src="https://img.icons8.com/bubbles/50/000000/instagram-new.png"/></li>
+					<li><img src="https://img.icons8.com/bubbles/50/000000/youtube-play.png"/></li>
+					<li><img src="https://img.icons8.com/bubbles/50/000000/twitter.png"/></li>
+				</ul>
+
+			</div>
+			<div class="head_vid col-5 col-sm-5">
+				<video onloadstart="this.volume=0.2" autoplay="" muted>
+					<source src="video/head_vid.mkv#t=10"></source>
+				</video>
+			</div>
+			<div class="head_txt col-6 col-sm-6">
+				<h1>Learn your favourite<br> Dance with us</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quibusdam quaerat quae quis id vero iure esse debitis, ad commodi!</p>
+				<input type="button" value="Contact Us">
+			</div>
+		</div>
+		<div class="row style_sec">
+			<div class="styles col-sm-12">
+				<div class="st_img col-5 col-sm-5">
+					<img src="image/hip-hop.jpg" alt="hip_hop_st">
+				</div>
+				<div class="st_txt col-7 col-sm-7">
+					<h1>Hip Hop Style</h1>
+					<p>Hip-hop dance refers to street dance styles primarily performed to hip-hop music or that have evolved as part of hip-hop culture. It includes a wide range of styles primarily breaking which was created in the 1970s and made popular by dance crews in the United States. The television show Soul Train and the 1980s films Breakin', Beat Street, and Wild Style showcased these crews and dance styles in their early stages; therefore, giving hip-hop mainstream exposure.</p>
+				</div>
+			</div>
+			<div class="styles col-sm-12">
+				<div style="text-align: right;" class="st_txt col-7 col-sm-7">
+					<h1>Spanish Tap Style</h1>
+					<p>Hip-hop dance refers to street dance styles primarily performed to hip-hop music or that have evolved as part of hip-hop culture. It includes a wide range of styles primarily breaking which was created in the 1970s and made popular by dance crews in the United States. The television show Soul Train and the 1980s films Breakin', Beat Street, and Wild Style showcased these crews and dance styles in their early stages; therefore, giving hip-hop mainstream exposure.</p>
+				</div>
+				<div class="st_img col-5 col-sm-5">
+					<img src="image/tap.jpg" alt="hip_hop_st">
+				</div>
+			</div>
+			<div class="styles col-sm-12">
+				<div class="st_img col-5 col-sm-5">
+					<img src="image/break.jpg" alt="hip_hop_st">
+				</div>
+				<div class="st_txt col-7 col-sm-7">
+					<h1>Break Style</h1>
+					<p>Hip-hop dance refers to street dance styles primarily performed to hip-hop music or that have evolved as part of hip-hop culture. It includes a wide range of styles primarily breaking which was created in the 1970s and made popular by dance crews in the United States. The television show Soul Train and the 1980s films Breakin', Beat Street, and Wild Style showcased these crews and dance styles in their early stages; therefore, giving hip-hop mainstream exposure.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row trainersec">
+			<div class="col-sm trainer">
+				<img src="image/trainer-1.jpg" alt="trainer_1"><br>
+				<h3>NappyTabs</h3><br>
+				<p>Who doesn’t know about this couple who is unstoppable and amazing? They actually met in school and started off choreographing hip-hop performances for the dance company Culture Shock. They are presently residential choreographers for – So You Think You Can Dance.
+
+</p>
+			</div>
+			<div class="col-sm trainer">
+				<img src="image/trainer-1.jpg" alt="trainer_1"><br>
+				<h3>NappyTabs</h3><br>
+				<p>Who doesn’t know about this couple who is unstoppable and amazing? They actually met in school and started off choreographing hip-hop performances for the dance company Culture Shock. They are presently residential choreographers for – So You Think You Can Dance.
+
+</p>
+			</div>
+			<div class="col-sm trainer">
+				<img src="image/trainer-1.jpg" alt="trainer_1"><br>
+				<h3>NappyTabs</h3><br>
+				<p>Who doesn’t know about this couple who is unstoppable and amazing? They actually met in school and started off choreographing hip-hop performances for the dance company Culture Shock. They are presently residential choreographers for – So You Think You Can Dance.
+
+</p>
+			</div>
+		</div>
+		<div class="row footer">
+			<div class="col-sm f_img">
+				<img src="image/trainer-2.jpg" alt="footer_image">
+			</div>
+			<div class="col-sm links">
+				<h5>necessary links</h5>
+				<ul style="text-align: left;">
+					<li><a href="#">About Dance</a></li>
+					<li><a href="#">Our Locations</a></li>
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#">Collaboration</a></li>
+					<li><a href="#">Media Opportunities</a></li>
+				</ul>
+			</div>
+			<div class="col-sm form">
+				<form align="center" action="none">
+					<input type="text" placeholder="First Name">
+					<input type="text" placeholder="Last Name"><br>
+					<input type="email" placeholder="Email"><br>
+					<textarea name="message" placeholder="Enter your Message here."></textarea>
+					<input type="button" value="Submit">
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
